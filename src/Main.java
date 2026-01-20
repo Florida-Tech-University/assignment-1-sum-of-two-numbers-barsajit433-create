@@ -3,14 +3,10 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        int num1 = scanner.nextInt();
+        int num2 = scanner.nextInt();
 
-        int a = 3;
-        int b = 5;
-
-        int sum = a + b;
-
-        // TODO: Print their sum  using println
-        System.out.println("Sum of 3 and 5 is: " + sum);
+        System.out.println(num1 + num2);
       
         scanner.close();
     }
